@@ -55,8 +55,8 @@ public class Vols extends javax.swing.JFrame {
      
      while(rs.next()){
          Afficher[0] = rs.getString("codeVol");
-         Afficher[1] = rs.getString("compagnie");
-         Afficher[2] = rs.getString("Source");
+         Afficher[1] = rs.getString("Source");
+         Afficher[2] = rs.getString("compagnie");
          Afficher[3] = rs.getString("Destination");
          Afficher[4] = rs.getString("NbrePlace");
          Afficher[5] = rs.getString("date");
